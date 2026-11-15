@@ -1,0 +1,16 @@
+# WireGuard 原生配置模板
+#
+# 私钥请用 tools/warp-gen.py 现场生成，不要提交真实私钥。
+# 注意：WireGuard 原生配置不支持 WARP 的 `reserved` 字段，
+#       某些网络下会握手失败；优先用 ClashMeta / sing-box 版本。
+[Interface]
+PrivateKey = <YOUR_PRIVATE_KEY>
+Address = 172.16.0.2/32
+DNS = 1.1.1.1, 1.0.0.1
+MTU = 1280
+
+[Peer]
+PublicKey = <PEER_PUBLIC_KEY_FROM_REG_RESPONSE>
+AllowedIPs = 0.0.0.0/0
+Endpoint = engage.cloudflareclient.com:2408
+PersistentKeepalive = 25

@@ -1,0 +1,30 @@
+# 现场产物（截图、录屏、UI dump、日志）
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.xml
+*.log
+*.apk
+
+# 运行期生成的含私钥配置（模板 *.example 不受影响）
+warp.conf
+warp-clash.yaml
+out/
+generated/
+
+# 凭据类：一律不入库
+*.token
+*.key
+*密钥*
+.env
+.env.*
+*_secret*
+private/
+!examples/*.example
+
+# Python / OS 噪声
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

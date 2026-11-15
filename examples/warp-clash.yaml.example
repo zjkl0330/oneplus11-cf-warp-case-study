@@ -1,0 +1,43 @@
+# ClashMeta (Clash.Meta / Mihomo) WireGuard WARP 出站模板
+#
+# 私钥用 tools/warp-gen.py 现场生成并填入，不要提交真实私钥。
+# reserved = base64decode(config.client_id) 的原始字节，每次注册都不同，
+#            用 tools/warp-gen.py 会自动算好并写进它生成的配置里。
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: true
+
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - https://cloudflare-dns.com/dns-query
+  # 不要加 tls://1.1.1.1:853 做 fallback —— 被封的就是 1.1.1.1
+
+proxies:
+  - name: "Cloudflare-WARP"
+    type: wireguard
+    server: engage.cloudflareclient.com
+    port: 2408
+    ip: 172.16.0.2
+    private-key: "<YOUR_PRIVATE_KEY>"
+    public-key: "<PEER_PUBLIC_KEY_FROM_REG_RESPONSE>"
+    udp: true
+    reserved: [78, 175, 11]   # 示例值，务必换成自己 client_id 解码结果
+    mtu: 1280
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "Cloudflare-WARP"
+      - "DIRECT"
+
+rules:
+  - MATCH,PROXY

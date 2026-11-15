@@ -1,0 +1,5 @@
+# 统一 LF，保证本地 git tree 与 Git Data API 上传的 tree sha 可比对
+* text=auto eol=lf
+*.pem text eol=lf
+*.crt binary
+*.0 text eol=lf

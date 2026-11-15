@@ -1,0 +1,68 @@
+CONNECTED(00000004)
+---
+Certificate chain
+ 0 s:CN=www.cloudflare.com
+   i:C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 de9cc5da9705c7edf34e7e4e0ac9e360
+   a:PKEY: EC, (secp384r1); sigalg: ecdsa-with-SHA256
+   v:NotBefore: Aug 31 19:08:03 2026 GMT; NotAfter: Mar  9 17:53:03 2027 GMT
+-----BEGIN CERTIFICATE-----
+MIICRTCCAeugAwIBAgIFALNsgxAwCgYIKoZIzj0EAwIwgcAxCzAJBgNVBAYTAlVT
+MRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRkw
+FwYDVQQKExBDbG91ZGZsYXJlLCBJbmMuMRswGQYDVQQLExJ3d3cuY2xvdWRmbGFy
+ZS5jb20xTDBKBgNVBAMTQ0dhdGV3YXkgQ0EgLSBDbG91ZGZsYXJlIE1hbmFnZWQg
+RzEgZGU5Y2M1ZGE5NzA1YzdlZGYzNGU3ZTRlMGFjOWUzNjAwHhcNMjYwODMxMTkw
+ODAzWhcNMjcwMzA5MTc1MzAzWjAdMRswGQYDVQQDDBJ3d3cuY2xvdWRmbGFyZS5j
+b20wdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATO1qRt7oYeeXEwoAf9C4PJU22vUpnQ
+wqcWHcGTPexKCu/RaR/AaBfDsJhtNEpy0C1JuGKYAOAFx8giVTa/tGJqpkqG+pJR
+VICdARtzugEwsbDDOoRAhaGH3sVMFHYUrOyjVzBVMBMGA1UdJQQMMAoGCCsGAQUF
+BwMBMB0GA1UdEQQWMBSCEnd3dy5jbG91ZGZsYXJlLmNvbTAfBgNVHSMEGDAWgBQk
+gIawXxrJ/MAKi+rX8BcE77ZDJDAKBggqhkjOPQQDAgNIADBFAiEAzK3Y5gpPMO8l
+gZMS/uPOrD+lHgOB/FkcjE3ELvRwiqICIEJLNX/n2X0zbz84hy33jbWNqsbDnXFg
+KpshTVR73LoF
+-----END CERTIFICATE-----
+ 1 s:C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 de9cc5da9705c7edf34e7e4e0ac9e360
+   i:C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 de9cc5da9705c7edf34e7e4e0ac9e360
+   a:PKEY: EC, (prime256v1); sigalg: ecdsa-with-SHA256
+   v:NotBefore: Feb  9 05:43:00 2025 GMT; NotAfter: Feb  9 05:43:00 2030 GMT
+-----BEGIN CERTIFICATE-----
+MIIDHjCCAsOgAwIBAgIUM6WLmFSYJvwWD+DXQc/oObMRb/4wCgYIKoZIzj0EAwIw
+gcAxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T
+YW4gRnJhbmNpc2NvMRkwFwYDVQQKExBDbG91ZGZsYXJlLCBJbmMuMRswGQYDVQQL
+ExJ3d3cuY2xvdWRmbGFyZS5jb20xTDBKBgNVBAMTQ0dhdGV3YXkgQ0EgLSBDbG91
+ZGZsYXJlIE1hbmFnZWQgRzEgZGU5Y2M1ZGE5NzA1YzdlZGYzNGU3ZTRlMGFjOWUz
+NjAwHhcNMjUwMjA5MDU0MzAwWhcNMzAwMjA5MDU0MzAwWjCBwDELMAkGA1UEBhMC
+VVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28x
+GTAXBgNVBAoTEENsb3VkZmxhcmUsIEluYy4xGzAZBgNVBAsTEnd3dy5jbG91ZGZs
+YXJlLmNvbTFMMEoGA1UEAxNDR2F0ZXdheSBDQSAtIENsb3VkZmxhcmUgTWFuYWdl
+ZCBHMSBkZTljYzVkYTk3MDVjN2VkZjM0ZTdlNGUwYWM5ZTM2MDBZMBMGByqGSM49
+AgEGCCqGSM49AwEHA0IABLzzfzY02d8Ug/QMPnu1MayfCI/Pk0Oa+8Kj0vyDn3AT
+wPTyIqwbIdQ261gxnIxzyZ4+oCfhfkEmUMPXMVlOP3mjgZgwgZUwDgYDVR0PAQH/
+BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFCSAhrBfGsn8wAqL6tfw
+FwTvtkMkMFMGA1UdHwRMMEowSKBGoESGQmh0dHA6Ly9jcmwuY2xvdWRmbGFyZS5j
+b20vZWNlOGJkNGYtMTFiMS00YWY5LWFlZTUtNjU0MzllZmQyMWE1LmNybDAKBggq
+hkjOPQQDAgNJADBGAiEA4hj7Ybs6fqHyB0KxykhNNq0XZJ7gqVmMJj1JMRZVGPgC
+IQCh7vhEN1cCEr0QKti5w6nHblVM+K8+qfWpZe8jSNDX4Q==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=www.cloudflare.com
+issuer=C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 de9cc5da9705c7edf34e7e4e0ac9e360
+---
+No client certificate CA names sent
+Peer signing digest: SHA384
+Peer signature type: ecdsa_secp384r1_sha384
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 2821 bytes and written 1631 bytes
+Verification error: self-signed certificate in certificate chain
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 384 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 19 (self-signed certificate in certificate chain)
+---
